@@ -1,0 +1,45 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: black;
+    float:left;
+}
+
+ul li a:hover{
+    opacity: 0.2;
+}
+
+.menu{
+    padding: 10px;
+}
+
+.buttonclick{
+    height: 50px;
+    width: 100px;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    ul {
+      flex-direction: column;
+    }
+  
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  
